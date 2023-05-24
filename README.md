@@ -37,6 +37,7 @@ Each branch will have detailed READMEs describing exact syntax.
 Examples
 --------
 
+<<<<<<< HEAD
 To download the 5.15.52-2.1.0 release
 ```
 $: repo init -u https://github.com/nxp-imx/imx-manifest -b imx-linux-kirkstone -m imx-5.15.52-2.1.0.xml
@@ -44,6 +45,16 @@ $: repo init -u https://github.com/nxp-imx/imx-manifest -b imx-linux-kirkstone -
 To download the 5.15.32-2.0.0 release
 ```
 $: repo init -u https://github.com/nxp-imx/imx-manifest -b imx-linux-kirkstone -m imx-5.15.32-2.0.0.xml
+=======
+To download the 6.1.1-1.0.1 patch release
+```
+$: repo init -u https://github.com/nxp-imx/imx-manifest -b imx-linux-langdale -m imx-6.1.1-1.0.1.xml
+```
+
+To download the 6.1.1-1.0.0 release
+```
+$: repo init -u https://github.com/nxp-imx/imx-manifest -b imx-linux-langdale -m imx-6.1.1-1.0.0.xml
+>>>>>>> a4ccac0b4556760c15e01d79598184ab8620c4dd
 ```
 
 Setup the build folder for a BSP release:
